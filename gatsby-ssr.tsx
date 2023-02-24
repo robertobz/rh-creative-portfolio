@@ -5,9 +5,9 @@ export const onRenderBody: GatsbySSR["onRenderBody"] = ({ setHeadComponents }) =
   setHeadComponents([
     <link
       rel="preload"
-      href="/fonts/work-sans.var.woff2"
+      href="/fonts/MARKPRO-Regular.woff"
       as="font"
-      type="font/woff2"
+      type="font/woff"
       crossOrigin="anonymous"
       key="workSansFont"
     />,
